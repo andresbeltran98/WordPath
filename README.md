@@ -11,7 +11,7 @@ Length3WordIndex
 SmallWordIndex
 LargeWordIndex
 
-The first one contains all words 3 characters in length. The second contains a small subset of words of three letters. The LargeWordIndex file contains all words between 3 and 7 characters in length. The lists of words were generated from [Grady Ward's Mody Word List](http://www.gutenberg.org/ebooks/3201) of valid crossword words.
+The first contains all words 3 characters in length. The second contains a small subset of words of three letters. The LargeWordIndex file contains all words between 3 and 7 characters in length. The lists of words were generated from [Grady Ward's Mody Word List](http://www.gutenberg.org/ebooks/3201) of valid crossword words.
 The WordIndex files are organized as follows. The first column is a number that is the index of a word. The second column is an English word. The rest of the line are the numbers that correspond to the indices of words that differ from the second column word by at most one character. 
 
 0 aah 875 649 589 324 150 70 50 2 1 <br>
@@ -21,7 +21,7 @@ The WordIndex files are organized as follows. The first column is a number that 
 
 ## Installing
 
-The program takes one argument: the name of the file that contains the list of words (Length3WordIndex, SmallWordIndex, or LargeWordIndex). Run the jar file:
+The program takes one argument: the name of the file that contains the list of words (Length3WordIndex, SmallWordIndex, or LargeWordIndex). Run the jar file in the command line:
 
 ```bash
 java -jar WordPath.jar [SmallWordIndex, Length3WordIndex, or LargeWordIndex]
@@ -32,15 +32,15 @@ java -jar WordPath.jar SmallWordIndex
 ```
 
 ## Running the tests
-The program includes JUnit testing. They are located under src/WordPathTester.java
+The program includes JUnit testing. The test files are located under src/WordPathTester.java
 The tested classes and methods are:
-* Getters and setters from WordData class (file parser): testing the correct extraction of data from the lists of words, and exception handling when the file does not exit or is in the wrong format.
+* Getters and setters from WordData class (file parser): testing the correct data extraciton from the lists of words, and exception handling when the file does not exit or is in the wrong format.
 * Method that counts the number of lines in the file. 
 * getPath method in WordPath class: testing different combinations of words, and special cases (a word is not in the file, a path does not exist, etc).
 
 
 ## Author
-* Andres Beltran - B.S. Computer Science candidate. CWRU 2021
+* Andres Beltran - B.S. in Computer Science candidate. CWRU 2021
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](https://github.com/andresbeltran98/WordPath/blob/master/LICENSE) file for details
