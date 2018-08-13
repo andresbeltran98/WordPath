@@ -34,7 +34,7 @@ java -jar WordPath.jar SmallWordIndex
 ## Running the tests
 The program includes JUnit testing. The test files are located under src/WordPathTester.java
 The tested classes and methods are:
-* Getters and setters from WordData class (file parser): testing the correct data extraciton from the lists of words, and exception handling when the file does not exit or is in the wrong format.
+* Getters and setters from WordData class (file parser): testing the correct data extraction from the lists of words, and exception handling when the file does not exit or is in the wrong format.
 * Method that counts the number of lines in the file. 
 * getPath method in WordPath class: testing different combinations of words, and special cases (a word is not in the file, a path does not exist, etc).
 
