@@ -13,6 +13,7 @@ LargeWordIndex
 
 The first one contains all words 3 characters in length. The second contains a small subset of words of three letters. The LargeWordIndex file contains all words between 3 and 7 characters in length. The lists of words were generated from Grady Ward's Mody Word List of valid crossword words.
 The WordIndex files are organized as follows. The first column is a number that is the index of a word. The second column is an English word. The rest of the line are the numbers that correspond to the indices of words that differ from the second column word by at most one character. 
+
 0 aah 875 649 589 324 150 70 50 2 1
 1 aal 697 590 283 71 61 28 19 2 0
 2 aas 845 819 760 654 595 477 436 408 328 288 237 74 65 53 48 23 10 1 0
