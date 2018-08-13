@@ -39,7 +39,7 @@ The tested classes and methods are:
 * getPath method in WordPath class: testing different combinations of words, and special cases (a word is not in the file, a path does not exist, etc).
 
 ## Documentation
-Documentation is offered under docs/index.html
+Documentation is offered under docs/index.html <br>
 Or you can see it [here](http://htmlpreview.github.io/?https://github.com/andresbeltran98/WordPath/blob/master/doc/index.html)
 
 ## Author
