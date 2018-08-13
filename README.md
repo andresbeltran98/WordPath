@@ -1,4 +1,4 @@
-# WordPath
+# Word Path
 The purpose of the program is to find the shortest path from a source to a destination through a collection of words. Two words are adjacent if you can change one word to the other by changing a single letter. For example, "cat" and "hat" are adjacent but "cat" and "cup" are not (two letter changes are required). The program reads in a given file of words, queries the user for two words, and then finds the shortest path of adjacent words from the start to the end word, if such a path exists. 
 
 ## Getting Started
