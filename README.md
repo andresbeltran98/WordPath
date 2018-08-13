@@ -11,7 +11,7 @@ Length3WordIndex
 SmallWordIndex
 LargeWordIndex
 
-The first one contains all words 3 characters in length. The second contains a small subset of words of three letters. The LargeWordIndex file contains all words between 3 and 7 characters in length. The lists of words were generated from Grady Ward's Mody Word List of valid crossword words.
+The first one contains all words 3 characters in length. The second contains a small subset of words of three letters. The LargeWordIndex file contains all words between 3 and 7 characters in length. The lists of words were generated from [Grady Ward's Mody Word List](http://www.gutenberg.org/ebooks/3201) of valid crossword words.
 The WordIndex files are organized as follows. The first column is a number that is the index of a word. The second column is an English word. The rest of the line are the numbers that correspond to the indices of words that differ from the second column word by at most one character. 
 
 0 aah 875 649 589 324 150 70 50 2 1 <br>
@@ -40,7 +40,7 @@ The tested classes and methods are:
 
 
 ## Author
-Andres Beltran - B.S. Computer Science candidate. CWRU 2021
+* Andres Beltran - B.S. Computer Science candidate. CWRU 2021
 
 ## License
-This project is licensed under the MIT License - see the LICENSE.md file for details
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/andresbeltran98/WordPath/blob/master/LICENSE) file for details
