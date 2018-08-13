@@ -38,6 +38,9 @@ The tested classes and methods are:
 * Method that counts the number of lines in the file. 
 * getPath method in WordPath class: testing different combinations of words, and special cases (a word is not in the file, a path does not exist, etc).
 
+## Documentation
+Documentation is offered under docs/index.html
+Or you can see it [here](http://htmlpreview.github.io/?https://github.com/andresbeltran98/WordPath/blob/master/doc/index.html)
 
 ## Author
 * Andres Beltran - B.S. in Computer Science candidate. CWRU 2021
