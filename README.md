@@ -6,7 +6,7 @@ The purpose of the program is to find the shortest path from a source to a desti
 ### Prerequisites
 Java 7 or above.
 
-There are three files provided in src/Resources:
+There are three text files provided:
 Length3WordIndex
 SmallWordIndex
 LargeWordIndex
